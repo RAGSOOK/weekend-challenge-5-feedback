@@ -21,7 +21,7 @@ class Supported extends Component{
             payload: this.state.value,
             };
             this.props.dispatch(action);
-            this.props.history.push('/4');
+            this.props.history.push('/p4');
         }else{
             alert('Please enter a number 1-5');
         }

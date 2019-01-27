@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { HashRouter as Router, Route,} from 'react-router-dom';
+import { HashRouter as Router, Route, Redirect} from 'react-router-dom';
 
 //My components
 import Feeling from '../Feeling/Feeling.js';
@@ -9,6 +9,7 @@ import Supported from '../Supported/Supported.js';
 import Comments from '../Comments/Comments.js';
 import Admin from '../Admin/Admin.js';
 import Review from '../Review/Review.js';
+import Confirmation from '../Confirmation/Confirmation.js';
 
 class App extends Component {
   render() {
@@ -23,13 +24,15 @@ class App extends Component {
         <Router>
           <div>
 
-            <Route exact path="/" component={Feeling} />
-            <Route exact path="/2" component={Understanding} />
-            <Route exact path="/3" component={Supported} />
-            <Route exact path="/4" component={Comments} />
+            <Redirect from="/" to="/p" />
+            <Route exact path="/p" component={Feeling} />
+            <Route exact path="/p2" component={Understanding} />
+            <Route exact path="/p3" component={Supported} />
+            <Route exact path="/p4" component={Comments} />
+            <Route exact path="/confirmation" component={Confirmation} />
             <Route exact path="/admin" component={Admin} />
 
-            <Route path="/" component={Review} />
+            <Route exact path="/(p|p2|p3|p4)" component={Review} />
 
           </div>
         </Router>

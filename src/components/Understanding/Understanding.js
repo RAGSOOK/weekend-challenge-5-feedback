@@ -21,7 +21,7 @@ class Understanding extends Component{
             payload: this.state.value,
             };
             this.props.dispatch(action);
-            this.props.history.push('/3');
+            this.props.history.push('/p3');
         }else{
             alert('Please enter a number 1-5');
         }

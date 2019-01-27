@@ -21,7 +21,7 @@ class Feeling extends Component{
             payload: this.state.value,
             };
             this.props.dispatch(action);
-            this.props.history.push('/2');
+            this.props.history.push('/p2');
         }else{
             alert('Please enter a number 1-5');
         }

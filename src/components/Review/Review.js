@@ -14,7 +14,7 @@ class Review extends Component{
     }
 
     complete = () => {
-        if(this.props.history.location.pathname === '/4'){
+        if(this.props.history.location.pathname === '/p4'){
             return <button onClick={this.handleSubmit} >Submit</button>
         }
         else{
@@ -33,6 +33,7 @@ class Review extends Component{
             data: feedbackToSend,
         }).then((response) => {
             console.log(response);
+            this.props.history.push('/confirmation')
         }).catch((error) => {
             console.log(error);
         });

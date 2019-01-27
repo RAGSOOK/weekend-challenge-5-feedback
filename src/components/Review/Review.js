@@ -14,7 +14,7 @@ class Review extends Component{
     }
 
     complete = () => {
-        if(this.state.complete){
+        if(this.props.history.location.pathname === '/4'){
             return <button onClick={this.handleSubmit} >Submit</button>
         }
         else{

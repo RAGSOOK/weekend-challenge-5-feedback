@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class Review extends Component{
+class Admin extends Component{
     render(){
         return(
             <div>
@@ -11,4 +11,4 @@ class Review extends Component{
     }
 }
 
-export default connect()(Review);
+export default connect()(Admin);

@@ -1,7 +1,7 @@
-import React, { componenet } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class Feeling extends component{
+class Feeling extends Component{
     render(){
         return(
             <div>

@@ -1,7 +1,7 @@
-import React, { componenet } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class Supported extends component{
+class Supported extends Component{
     render(){
         return(
             <div>

@@ -21,10 +21,13 @@ class Review extends Component{
     }
 
     handleSubmit = () => {
+        let feedbackToSend = this.props.reduxStore.feedbackReducer;
+        console.log(feedbackToSend);
+
         axios({
             method: 'POST',
             url: '/feedback',
-            data: this.props.reduxStore.feedbackReducer,
+            data: feedbackToSend,
         }).then((response) => {
             console.log(response);
         }).catch((error) => {

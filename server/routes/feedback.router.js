@@ -1,8 +1,8 @@
 const express = require('express');
-const router = express.Router();
+const feedbackRouter = express.Router();
 const pool = require('../modules/pool.js');
 
-router.post('/', (req, res) => {
+feedbackRouter.post('/', (req, res) => {
     console.log('In Feedback POST with', req.body);
     const feedback = req.body;
     queryText = `INSERT INTO "feedback" ("feeling", "understanding", "support", "comments")
@@ -16,3 +16,5 @@ router.post('/', (req, res) => {
             res.sendStatus(500);
         });
 });
+
+module.exports = feedbackRouter;

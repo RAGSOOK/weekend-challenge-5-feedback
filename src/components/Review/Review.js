@@ -9,6 +9,8 @@ class Review extends Component{
         this.state = {
             complete: true,
         }
+
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     complete = () => {
@@ -21,7 +23,8 @@ class Review extends Component{
     }
 
     handleSubmit = () => {
-        let feedbackToSend = this.props.reduxStore.feedbackReducer;
+        console.log(this);
+        let feedbackToSend = this.props.reduxStore;
         console.log(feedbackToSend);
 
         axios({

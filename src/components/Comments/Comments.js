@@ -15,12 +15,20 @@ class Comments extends Component{
         });
     }
 
+    enterComment = () => {
+        const action = { type: 'SET_COMMENTS',
+        payload: this.state.comment,
+        };
+        this.props.dispatch(action);
+    }
+
     render(){
         return(
             <div>
                 <h3>Any Comments? (optional)</h3>
 
                 <input type='text' onChange={this.setComment} />
+                <button onClick={this.enterComment}>Enter</button>
 
             </div>
         );

@@ -1,13 +1,13 @@
 {
-  "main.css": "/RAGSOOK/weekend-challenge-5-feedback/static/css/main.b5ca0d72.chunk.css",
-  "main.js": "/RAGSOOK/weekend-challenge-5-feedback/static/js/main.00dadc49.chunk.js",
-  "main.js.map": "/RAGSOOK/weekend-challenge-5-feedback/static/js/main.00dadc49.chunk.js.map",
-  "static/js/1.33cac8e4.chunk.js": "/RAGSOOK/weekend-challenge-5-feedback/static/js/1.33cac8e4.chunk.js",
-  "static/js/1.33cac8e4.chunk.js.map": "/RAGSOOK/weekend-challenge-5-feedback/static/js/1.33cac8e4.chunk.js.map",
-  "runtime~main.js": "/RAGSOOK/weekend-challenge-5-feedback/static/js/runtime~main.2b97f236.js",
-  "runtime~main.js.map": "/RAGSOOK/weekend-challenge-5-feedback/static/js/runtime~main.2b97f236.js.map",
-  "static/css/main.b5ca0d72.chunk.css.map": "/RAGSOOK/weekend-challenge-5-feedback/static/css/main.b5ca0d72.chunk.css.map",
-  "index.html": "/RAGSOOK/weekend-challenge-5-feedback/index.html",
-  "precache-manifest.dd22cdb20017afdd42373c64cd6032e9.js": "/RAGSOOK/weekend-challenge-5-feedback/precache-manifest.dd22cdb20017afdd42373c64cd6032e9.js",
-  "service-worker.js": "/RAGSOOK/weekend-challenge-5-feedback/service-worker.js"
+  "main.css": "/static/css/main.b5ca0d72.chunk.css",
+  "main.js": "/static/js/main.77e5f558.chunk.js",
+  "main.js.map": "/static/js/main.77e5f558.chunk.js.map",
+  "static/js/1.33cac8e4.chunk.js": "/static/js/1.33cac8e4.chunk.js",
+  "static/js/1.33cac8e4.chunk.js.map": "/static/js/1.33cac8e4.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.b5ca0d72.chunk.css.map": "/static/css/main.b5ca0d72.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.6a26ae5d0ab3bf5d75c520e6d687bd40.js": "/precache-manifest.6a26ae5d0ab3bf5d75c520e6d687bd40.js",
+  "service-worker.js": "/service-worker.js"
 }
